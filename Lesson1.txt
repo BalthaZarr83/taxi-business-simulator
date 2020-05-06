@@ -1,0 +1,11 @@
+Lesson 1:
+
+-Erweitere die Klasse Taxi um die Felder (fields)
+    +Sitzplätze (int)
+    +Kilometerstand (double)
+    +Verbrauch pro 100km (double)
+    +Maximaler Tankinhalt (double)
+    +Aktueller Tankinhalt (double)
+
+-Erweitere die Klasse um einen Konstruktor der sämtliche fields setzt.
+-Erweitere die Klasse um Getter Methoden für sämtliche fields.
