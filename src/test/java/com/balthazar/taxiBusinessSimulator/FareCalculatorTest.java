@@ -8,12 +8,12 @@ class FareCalculatorTest {
     @Test
     void calculateFare_shortDistance() {
         FareCalculator fareCalculator= new FareCalculator();
-        Assertions.assertEquals(16, fareCalculator.calculateFare(20), 0.01, "kurze Fahrt von 20km (20*0.8= 16)");
+        Assertions.assertEquals(16, fareCalculator.calculateFare(20), 0.01, "kurze Fahrt üer 20km (20*0.8= 16)");
     }
     @Test
     void calculateFare_mediumDistance() {
         FareCalculator fareCalculator= new FareCalculator();
-        Assertions.assertEquals(59, fareCalculator.calculateFare(80), 0.01, "Fahrt zwischen 30 und 100km (30*0.8+ 50*0.7= 59)");
+        Assertions.assertEquals(59, fareCalculator.calculateFare(80), 0.01, "Fahrt üer 80 km (30*0.8+ 50*0.7= 59)");
     }
     @Test
     void calculateFare_longDistance() {
