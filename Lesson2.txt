@@ -1,0 +1,4 @@
+Lesson 2:
+Schau die die Klasse FareCalculator an, dort wird ein Fahrpreismodell beschrieben und es gibt eine Methode die nach diesem Modell den Fahrpreis in Abhängigkeit der zu fahrenden Kilometer
+errechnet. Außerdem gibt es eine Testklasse die die Funktionalität testet. Sie sie dir genau anm versuche den Code nachzuvollziehen und schreibe dann eine eigene Klasse "SergeysCalculator" die,
+ein anderes Fahrpreismodell beschreibt und schreibe dasfür eine Methode. Teste die Methode danach ebenfalls in einer eigenen Testklasse.
